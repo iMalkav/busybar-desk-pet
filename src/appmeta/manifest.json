@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "app.imalkav.desk_pet",
+  "name": "Desk Pet",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "author": "iMalkav",
+  "description": "A small desk companion with food, play and rest.",
+  "heap_size_kib": 256,
+  "debug": false
+}

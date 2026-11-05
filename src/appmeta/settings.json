@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "name": {
+      "type": "string",
+      "label": "Name",
+      "default": "Pip",
+      "max_length": 32,
+      "sensitive": false
+    },
+    "mood_color": {
+      "type": "color",
+      "label": "Color",
+      "default": "#7BE5B1"
+    }
+  }
+}

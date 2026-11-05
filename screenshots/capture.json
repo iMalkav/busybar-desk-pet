@@ -1,0 +1,53 @@
+{
+  "captured_at": "2026-11-05T13:52:17.212252+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.desk_pet",
+    "name": "Desk Pet",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "A small desk companion with food, play and rest.",
+    "heap_size_kib": 256,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "name": "Pip",
+      "mood_color": "#7BE5B1"
+    }
+  },
+  "inputs": [],
+  "data_note": "Schema default settings.",
+  "fixture": null,
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "910a84fb03a1efae1d590f4cb1c56d7ab675ead8626e7a288783b3f24c8175b7",
+      "png_sha256": "a8991339126fa6bb651817256d87b926a19c658c2afd1983d3b0036eb9e8b2dc"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "57fe2ff495958bbb6ef7646eaeab3fd48d63c1eb6593766fc5b52b294399e919",
+      "png_sha256": "f47df77742a940f91aaf83849d493497c554cf38e34d5243ca901aec71b22988"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
